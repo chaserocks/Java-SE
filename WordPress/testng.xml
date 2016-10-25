@@ -1,0 +1,43 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name ="Automation Suite" parallel="tests">
+
+  <test name="TestGC">
+  
+	<parameter name="browser" value="chrome"/>
+	<parameter name="url" value="http://192.168.0.125:4444/wd/hub"/>
+    
+   <classes>
+    <class name="scripts.ValidLoginLogout"/>
+    <class name="scripts.InvalidLogin"/>
+    <class name="scripts.verifyNavigationLink"/>
+    
+   </classes>
+   </test> 
+   
+ <!--   <test name="TestFF">
+		<parameter name="browser" value="firefox"/>
+		<parameter name="url" value="http://192.168.0.125:4444/wd/hub"/>
+	
+	<classes>
+ <class name="scripts.ValidLoginLogout"/>
+ <class name="scripts.InvalidLogin"/>
+      <class name="scripts.verifyNavigationLink"/>
+    
+	</classes> 
+	</test>  -->
+	
+ 	<test name="TestIE">
+		<parameter name="browser" value="internetExplorer"/>
+		<parameter name="url" value="http://192.168.0.125:4444/wd/hub"/>
+	
+	<classes>
+ <class name="scripts.ValidLoginLogout"/>
+ <class name="scripts.InvalidLogin"/>
+      <class name="scripts.verifyNavigationLink"/>
+    
+	</classes> 
+	</test> 
+	
+</suite>

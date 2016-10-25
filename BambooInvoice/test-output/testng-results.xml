@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="145" started-at="2016-07-20T19:08:39Z" finished-at="2016-07-20T19:08:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="145" started-at="2016-07-20T19:08:39Z" finished-at="2016-07-20T19:08:39Z">
+      <class name="Practices.log4jDemo">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:Practices.log4jDemo@6d657803]" name="preCondition" is-config="true" duration-ms="118" started-at="2016-07-20T12:08:39Z" finished-at="2016-07-20T12:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testDemo()[pri:0, instance:Practices.log4jDemo@6d657803]" name="testDemo" duration-ms="5" started-at="2016-07-20T12:08:39Z" finished-at="2016-07-20T12:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+      </class> <!-- Practices.log4jDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

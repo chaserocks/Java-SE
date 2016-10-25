@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[firefox]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19077" started-at="2016-07-10T19:52:38Z" finished-at="2016-07-10T19:52:57Z">
+    <groups>
+    </groups>
+    <test name="TestFF" duration-ms="19077" started-at="2016-07-10T19:52:38Z" finished-at="2016-07-10T19:52:57Z">
+      <class name="scriptsbyusingparameters.VerifyAboutPopup">
+        <test-method status="PASS" signature="preCondtions(org.testng.xml.XmlTest)[pri:0, instance:scriptsbyusingparameters.VerifyAboutPopup@4b416926]" name="preCondtions" is-config="true" duration-ms="9549" started-at="2016-07-10T12:52:38Z" finished-at="2016-07-10T12:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "TestFF" verbose:1[parameters:browser=>firefox][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=scriptsbyusingparameters.VerifyAboutPopup]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[firefox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondtions -->
+        <test-method status="PASS" signature="testVerifyAboutPopup()[pri:0, instance:scriptsbyusingparameters.VerifyAboutPopup@4b416926]" name="testVerifyAboutPopup" duration-ms="9379" started-at="2016-07-10T12:52:47Z" finished-at="2016-07-10T12:52:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyAboutPopup -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:scriptsbyusingparameters.VerifyAboutPopup@4b416926]" name="postCondition" is-config="true" duration-ms="130" started-at="2016-07-10T12:52:57Z" finished-at="2016-07-10T12:52:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyAboutPopup status=SUCCESS method=VerifyAboutPopup.testVerifyAboutPopup()[pri:0, instance:scriptsbyusingparameters.VerifyAboutPopup@4b416926] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- scriptsbyusingparameters.VerifyAboutPopup -->
+    </test> <!-- TestFF -->
+  </suite> <!-- Suite -->
+</testng-results>

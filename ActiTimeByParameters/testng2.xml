@@ -1,0 +1,17 @@
+<suite name ="Suite" parallel="none">
+
+<!-- <test name="TestGC">
+	<parameter name="browser" value="chrome"/>
+	<classes>
+	<class name="scriptsbyusingparameters.VerifyAboutPopup"/>
+	</classes>
+	</test> -->
+	
+	<test name="TestIE">
+	<parameter name="browser" value="ie"/>
+	<classes>
+	<class name="scriptsbyusingparameters.VerifyAboutPopup"/>
+	</classes>
+	</test>
+</suite>
+

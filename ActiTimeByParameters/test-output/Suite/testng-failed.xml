@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="TestGC(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="scriptsbyusingparameters.InvalidLogin">
+        <methods>
+          <include name="preCondtions"/>
+          <include name="testInvalidLogin"/>
+        </methods>
+      </class> <!-- scriptsbyusingparameters.InvalidLogin -->
+    </classes>
+  </test> <!-- TestGC(failed) -->
+</suite> <!-- Failed suite [Suite] -->

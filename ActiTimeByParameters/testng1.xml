@@ -1,0 +1,17 @@
+<suite name ="Suite" parallel="tests">
+
+<test name="TestGC">
+	<parameter name="browser" value="chrome"/>
+	<classes>
+	<class name="scriptsbyusingparameters.InvalidLogin"/>
+	</classes>
+	</test>
+	
+	<test name="TestFF">
+	<parameter name="browser" value="firefox"/>
+	<classes>
+	<class name="scriptsbyusingparameters.InvalidLogin"/>
+	</classes>
+	</test>
+</suite>
+

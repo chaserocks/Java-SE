@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="599" started-at="2016-10-24T11:53:14Z" finished-at="2016-10-24T11:53:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="599" started-at="2016-10-24T11:53:14Z" finished-at="2016-10-24T11:53:14Z">
+      <class name="Excel.readnumericDatafromExcel">
+        <test-method status="PASS" signature="test1()[pri:0, instance:Excel.readnumericDatafromExcel@56f4468b]" name="test1" duration-ms="580" started-at="2016-10-24T17:23:14Z" finished-at="2016-10-24T17:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- Excel.readnumericDatafromExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

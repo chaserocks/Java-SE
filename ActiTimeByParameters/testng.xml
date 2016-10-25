@@ -1,0 +1,21 @@
+<suite name ="Suite" parallel="tests">
+	
+	<test name="TestGC">
+	<parameter name="browser" value="chrome"/>
+	<classes>
+	<class name="scriptsbyusingparameters.ValidLoginLogout"/> 
+	<class name="scriptsbyusingparameters.InvalidLogin"/>
+	<class name="scriptsbyusingparameters.VerifyAboutPopup"/>
+	</classes>
+	</test>
+	
+	<test name="TestFF">
+	<parameter name="browser" value="firefox"/>
+	<classes>
+	<class name="scriptsbyusingparameters.ValidLoginLogout"/>
+	<class name="scriptsbyusingparameters.InvalidLogin"/>
+	<class name="scriptsbyusingparameters.VerifyAboutPopup"/>
+	</classes>
+	</test>
+</suite>
+

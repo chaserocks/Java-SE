@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Suite]" parallel="tests">
+  <parameter name="browser" value="internetExplorer"/>
+  <parameter name="url" value="http://192.168.0.125:4444/wd/hub"/>
+  <test name="TestIE(failed)" parallel="tests">
+    <parameter name="browser" value="internetExplorer"/>
+    <parameter name="url" value="http://192.168.0.125:4444/wd/hub"/>
+    <classes>
+      <class name="scripts.InvalidLogin">
+        <methods>
+          <include name="preConditions"/>
+          <include name="preConditions"/>
+          <include name="postCondition"/>
+          <include name="postCondition"/>
+          <include name="testInvalidLogin"/>
+        </methods>
+      </class> <!-- scripts.InvalidLogin -->
+      <class name="scripts.ValidLoginLogout">
+        <methods>
+          <include name="preConditions"/>
+          <include name="preConditions"/>
+          <include name="postCondition"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- scripts.ValidLoginLogout -->
+      <class name="scripts.verifyNavigationLink">
+        <methods>
+          <include name="preConditions"/>
+          <include name="preConditions"/>
+          <include name="postCondition"/>
+          <include name="postCondition"/>
+          <include name="testNavigation"/>
+          <include name="testValidLoginLogout"/>
+          <include name="clickLogoutLink"/>
+        </methods>
+      </class> <!-- scripts.verifyNavigationLink -->
+    </classes>
+  </test> <!-- TestIE(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->
